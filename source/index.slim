@@ -1,0 +1,33 @@
+header.navbar.navbar-fixed-top role="banner"
+  .container
+    .navbar-header
+      = link_to "#top", class: "navbar-brand" do
+        span.circle Circle
+        span.wave Wave
+    nav.collapse.navbar-collapse role="navigation"
+      ul.nav.navbar-nav
+        li = link_to "CircleWaveとは?", "#about"
+        li = link_to "仲間を集めよう", "#friends"
+        li = link_to "イベントを開催しよう", "#event"
+
+#content
+
+  #top
+    .container
+      h1 CircleWave
+
+  #about
+    .container
+      h1 CircleWave とは
+
+  #friends
+    .container
+      h1 仲間を集めよう
+
+  #event
+    .container
+      h1 イベントを開催しよう
+
+footer
+  .container
+    p.copyright &copy; whitehole

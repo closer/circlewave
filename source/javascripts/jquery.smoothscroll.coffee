@@ -12,7 +12,7 @@
 
     scrolize: ->
       $(@).click ->
-        $(@).smoothScrollTo 300, 'swing'
+        $(@).smoothScrollTo 500, 'swing'
         return false
       return this
 

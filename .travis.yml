@@ -1,6 +1,9 @@
 language: ruby
 rvm:
 - 2.0.0
+before_script:
+- "npm install bower"
+- "bower install"
 script: "bundle exec middleman build"
 before_deploy: "cd build"
 deploy:

@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.0.0
-script: "middleman build"
+script: "bundle exec middleman build"
 before_deploy: "cd build"
 deploy:
   provider: s3
